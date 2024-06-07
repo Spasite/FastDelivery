@@ -1,0 +1,419 @@
+@font-face {
+    font-family: 'nova_scriptregular';
+    src: url('../fonts/novascript-regular-webfont.woff2') format('woff2'),
+         url('../fonts/novascript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppinslight';
+    src: url('../fonts/poppins-light-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppinsmedium';
+    src: url('../fonts/poppins-medium-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppinsregular';
+    src: url('../fonts/poppins-regular-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppinssemibold';
+    src: url('../fonts/poppins-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'nova_scriptregular';
+    src: url('../fonts/novascript-regular-webfont.woff2') format('woff2'),
+         url('../fonts/novascript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppinslight';
+    src: url('../fonts/poppins-light-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppinsmedium';
+    src: url('../fonts/poppins-medium-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppinsregular';
+    src: url('../fonts/poppins-regular-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppinssemibold';
+    src: url('../fonts/poppins-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "poppins", "novascript";
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #000;
+}
+/*---------header---------*/
+.fast-delivery {
+    width: 1296.6px;
+    height: 624px;
+    margin: 0 auto;
+
+    
+}
+.headerr { 
+    display: flex;
+    justify-content: space-between;
+}
+.header__img {
+    position: relative;
+}
+.img__courier {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+.img__woman {
+    position: absolute;
+    bottom: 10px;
+    left: 70px;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 63px;
+    padding-right: 10px;
+}
+.logo-name {
+    margin-top: 30px;
+    margin-left: 55px;
+    font-family: 'nova_scriptregular';
+    font-size: 23px;
+    text-shadow:#3f3f3f17 2px  8px ;
+}
+.colortext {
+    color: #FFAE00;
+}
+.mainmenu__item {
+    list-style: none;
+    line-height: 42px;
+    margin-left: 50px;
+}
+.menu__link__home {
+    font-family: 'poppinsmedium';
+    text-decoration: none;
+    color: #512F8B;
+    font-size: 15px;
+    
+}
+.menu__link {
+    text-decoration: none;
+    color: #000;
+    font-family:'poppinsregular' ;
+    font-size: 15px;
+}
+.social-network {
+    margin-left: 50px;
+
+}
+
+.btn__courier {
+    border: none;
+    color: #fff;
+    background-color:#4832DC ;
+    width: 155px;
+    height: 73px;
+    border-radius: 10px; 
+    font-size: 15px;
+    font-family: 'poppinsregular';
+}
+.btn__parcel {
+   
+    border: none;
+    color: #171717;
+    background-color:#ECECF1 ;
+    width: 155px;
+    height: 73px;
+    border-radius: 10px; 
+    font-size: 15px;
+    font-family: 'poppinsregular';
+}
+
+
+/*07.06*/
+
+.delivery__registration {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/*---------------------------------------------------------------TRACK-------------------------------------------------------------------------------------------*/
+
+.track__logo {
+    color: #fff;
+    height: 45px;
+    font-size: 30px;
+    font-family: 'poppinsmedium';
+    align-content: center;
+    z-index: 1;
+    margin-left: 37px;
+}
+
+.track__logo2 {
+    color: #ffffff50;
+    font-size: 50px;
+    font-family: 'poppinsmedium';
+    position: absolute;
+    height: 75px;
+    top: 730px;
+    padding: 19px;
+    padding-right: 19px;
+    
+}
+
+.track__block {
+    display: flex;
+    align-items:end;
+    flex-direction: column;
+    height: 415px;
+    background-image: url(../img/track__Background.png);
+    background-size:  100%;
+}
+
+.track__form {
+    width: 602px;
+    height: 243px;
+    background-color: #4932dc8b;
+    margin-right: 81px;
+    margin-top: 86px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+
+}
+.btn__form {
+    position: absolute;
+    width: 133px;
+    height: 45px;
+    background-color: #FFAE00;
+    color: #fff;
+    font-family: 'poppinsregular';
+    border: none;
+    border-radius: 10px;
+    top: 200px;
+    right: 124px;
+}
+
+.input__bb {
+    margin-left: 37px;
+    margin-right: 37px;
+    padding-top: 16px;
+}
+
+.input__track {
+    width: 530px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'poppinsregular';
+    padding-left: 21.5px;
+}
+.now__track {
+    font-family: 'poppinslight';
+    font-size: 15px;
+    color:#fff;
+    margin-left: 38.5px;
+    padding-top: 9.3px;
+}
+
+/*----------------------Gallery---------*/
+.gallery__block {
+    margin: 0 auto;
+    max-width: 1174px;
+    max-height: 838px;
+    background-color: #F5F3F9;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.galcat {
+    display: grid;
+    grid-template-columns: 454px 264px 264px;
+    column-gap: 47px;
+    grid-template-rows: 212px 212px;
+    row-gap: 38px;
+  
+   padding-bottom: 52px;
+   padding-top: 51px;
+
+    
+}
+.galcat__img4 {
+    display: grid;
+    grid-column:2/3;
+    grid-row: 2/3;
+}
+.galcat__img5 {
+    grid-column: -2/-1;
+}
+
+.par_style{
+    font-family:'poppinsregular' ;
+}
+.view_color {
+    color: #281B7B;
+    padding-bottom: 54px;
+    
+}
+.gallery_logo {
+    color: #4832DC;
+    height: 60px;
+    font-size: 40px;
+    font-family: 'poppinssemibold';
+    margin-top: 103px;
+    align-content: center;
+    z-index: 1;
+
+}
+.gallery_logo2 {
+    color: #4932dc10;
+    font-size: 90px;
+    font-family: 'poppinssemibold';
+    position: absolute;
+    top: 1700px;
+
+}
+
+/*---------------------------------------------------------SERVICE---------------------------------------------------------------------------*/
+
+.service__b{
+    max-width: 1173px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.service_advantages {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 46px;
+}
+
+.service_block {
+   height: 92px;
+   width: 355.5px;
+   position: relative;
+    text-align: left;
+    
+}
+
+.service_par {
+    display: inline-block;
+    margin-left: 32px;
+    position: absolute;
+    width: 226px;  
+}
+
+.serv_name {
+    font-size: 18px;
+    font-family: 'poppinssemibold';
+    margin-bottom:12px ;
+}
+
+.serv {
+    font-size: 15px;
+    color: #858585;
+}
+
+.service__logo {
+   color: #0000001d;
+    font-size: 90px;
+    font-family: 'poppinssemibold';
+    position: absolute;
+    top: 1150px;
+    padding-bottom: 177px;
+}
+
+.colortext__logo {
+    color: #4932dc10;
+}
+
+.sev {
+    padding-bottom: 33px;
+}
+
+.service__logo2 {
+    color: #000;
+    height: 60px;
+    font-size: 40px;
+    font-family: 'poppinssemibold';
+    margin-top: 103px;
+    align-content: center;
+    z-index: 1;
+}
+
+.colortext__logo2 {
+    color: #4832DC;
+}
+
+.serv__description {
+    padding-bottom: 44px;
+    text-align: center;
+}
