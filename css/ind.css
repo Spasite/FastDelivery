@@ -254,6 +254,11 @@ body {
     top: 823px
     right: 124px;
 }
+.btn__form:hover,
+.btn__form:focus {
+    background-color: #4932dcfd;
+    color:#fff ;
+}
 
 .input__bb {
     margin-left: 37px;
